@@ -23,6 +23,6 @@ test("this is consistent for study function", () => {
   global.console.log = jest.fn();
   const { study } = winnie;
   study();
-  expect(global.console.log).toBeCalledWith("Winnie is moving8");
+  expect(global.console.log).toBeCalledWith("Winnie is moving");
   expect(global.console.log).toBeCalledWith("Winnie is studying in class1");
 });
